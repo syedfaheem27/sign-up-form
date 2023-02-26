@@ -1,6 +1,6 @@
 :root{
     background-color: black;
-    box-sizing: border-box;
+   
 }
 /* File header */
 div.header{
@@ -33,12 +33,37 @@ div.header{
     background-color: rgba(231, 226, 226, 0.103);
    
 }
-.form_container div:nth-child(1){
-    background-image: url("./Images/galaxy_back.jpg");
-    width: 35vw;
-    padding-right: 15rem;
-    background-size: cover;
+.form_container .background{
+    box-sizing: border-box;
+    background-image: url("./Images/galaxy_background.jpg");
+    width: 45vw;
+    background-size: 45vw 90vh;
     background-repeat: no-repeat;
     box-shadow: 3px 3px 4px gray,-3px -3px 4px gray;
     
+}
+
+.form{
+    box-sizing: border-box;
+    padding: 12px;
+    width: 55vw;
+    border: 3px solid green;
+}
+
+.form div:nth-child(1){
+    color: white;
+    font-size: 1.15rem;
+    text-shadow: 3px 3px 4px rgba(0, 140, 255, 0.829); 
+    text-align: center;
+}
+p{
+    padding: 0;
+    margin: 1em;
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgba(255, 255, 0, 0.562);
+}
+.header p:nth-child(2){
+    text-align: left;
+    font-weight: bolder;
 }
