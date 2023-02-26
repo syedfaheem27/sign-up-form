@@ -44,7 +44,6 @@ container for the form excluding background */
     box-sizing: border-box;
       width: 55vw;
       box-shadow: 3px 3px 4px gray, 0px -3px 4px gray;
-      padding: 12px;
 }
 /* header */
 .form div:nth-child(1){
@@ -52,6 +51,7 @@ container for the form excluding background */
     font-size: 1.15rem;
     text-shadow: 3px 3px 4px rgba(0, 140, 255, 0.829); 
     text-align: center;
+    margin-top: 12px;
 }
 p{
     padding: 0;
@@ -84,6 +84,7 @@ p{
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+   height: 25vh;
 }
 input{
     display: block;
@@ -101,7 +102,7 @@ label{
 }
 .item1>div,
 .item2>div{
-    margin-top: 12px;
+    margin-top: 0.9rem;
 }
 /* validation */
 input::placeholder{
@@ -149,7 +150,8 @@ a{
     color: #596D48;
 }
 output{
-    font-size: 14px;
+    display: block;
+    font-size: 12px;
     color:rgb(0, 0, 255)
 }
 
