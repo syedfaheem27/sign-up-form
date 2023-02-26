@@ -2,6 +2,7 @@
     background-color: black;
     box-sizing: border-box;
 }
+/* File header */
 div.header{
     display: flex;
     justify-content: space-between;
@@ -22,4 +23,22 @@ div.header{
     font-size: 1.25rem;
     margin: -3vh 25vw;
    text-shadow: 3px 3px 4px rgba(0, 140, 255, 0.829);
+}
+
+/* Form container */
+.form_container{
+    display: flex;
+    height: 90vh;
+    border: 3px solid red;
+    background-color: rgba(231, 226, 226, 0.103);
+   
+}
+.form_container div:nth-child(1){
+    background-image: url("./Images/galaxy_back.jpg");
+    width: 35vw;
+    padding-right: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 4px gray,-3px -3px 4px gray;
+    
 }
