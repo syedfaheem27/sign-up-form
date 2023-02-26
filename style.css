@@ -41,15 +41,14 @@ div.header{
     background-repeat: no-repeat;
     box-shadow: 3px 3px 4px gray,-3px -3px 4px gray;
     
-}
-
+}/*
+container for the form excluding background */
 .form{
     box-sizing: border-box;
-    padding: 12px;
-    width: 55vw;
+      width: 55vw;
     border: 3px solid green;
 }
-
+/* header */
 .form div:nth-child(1){
     color: white;
     font-size: 1.15rem;
@@ -63,7 +62,65 @@ p{
     text-align: center;
     color: rgba(255, 255, 0, 0.562);
 }
+
 .header p:nth-child(2){
     text-align: left;
     font-weight: bolder;
+}
+
+/* body */
+.body{
+    background-color: white;
+    box-shadow: 3px 3px 4px gray,0px -3px 4px gray;
+    padding: 1rem;
+    }
+.body>p{
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+}
+
+/* flex_cont */
+.flex_cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+input{
+    display: block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 1.25rem;
+}
+label{
+    display: inline-block;
+    font-size: 1.1rem;
+    color: black;
+    text-shadow: none;
+    text-align: left;
+    
+}
+.item1>div,
+.item2>div{
+    margin-top: 12px;
+}
+/* validation */
+input::placeholder{
+    color: rgba(0, 128, 0, 0.521);
+}
+input:focus:invalid{
+    border: none;
+    outline: 1px solid red;
+    box-shadow: 3px 3px  4px gray;
+}
+input:focus:valid{
+    border: none;
+    outline: 1px solid rgba(0, 0, 255, 0.842);
+    box-shadow: 3px 3px  4px gray;
+}
+input:valid{
+    border: none;
+    outline: 1px solid green;
+   
 }
