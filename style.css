@@ -1,0 +1,25 @@
+:root{
+    background-color: black;
+    box-sizing: border-box;
+}
+div.header{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid gold;
+    height: 15vh;
+    align-items: flex-start;
+    padding: 12px;
+}
+.header div:nth-child(1) img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid gold;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px white,-2px -2px 10px white;
+}
+.header div:nth-child(2){
+    color: white;
+    font-size: 1.25rem;
+    margin: -3vh 25vw;
+   text-shadow: 3px 3px 4px rgba(0, 140, 255, 0.829);
+}
